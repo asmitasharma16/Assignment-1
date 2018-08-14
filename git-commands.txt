@@ -1,0 +1,28 @@
+CONFIGURING GIT
+To tell Git who you are,run the following two commands
+$ git config --global user.name "asmitasharma16"
+$ git config --global user.email "asmitaas73@gmail.com"
+
+STARTING A NEW LOCAL REPOSITORY WITH GIT
+The "init" command stands for initialize .Once you run "git init".Git will initialize a hidden directory called ".git" in the project's root directory.And you'll get a confirmation that your deposit box is ready.
+$ git init
+
+To know Git status, you'll need to run:
+$ git status
+
+STAGING FILES WITH GIT
+To let Git track files for a commit,We need to run the following in the terminal:
+$ git add documnet1.txt
+To add more then one file,We need to run the following in the terminal:
+$ git add .
+
+COMMITTING CHANGES TO GIT
+To commit to a repository,use the "commit" command. Next,pass the "commit" command the "-m" option,which stands for "message".Lastly ,type in your commit message.
+$ git commit -m "bug is resolved"
+
+PUSH AND PULL TO ADD FROM A REMOTE REPOSITORY
+We tell Git to "add" a repository .The "origin" option is the default name for the server on which your remote repository is located .Lastly ,there's a link to your project on Github.Once you run the command above.Git will connect your local and remote repositories.
+$ git remote add origin "https://github.com/asmitasharma16/instructions.git"
+
+The command "push" tells Git to push your files to a remote repository.
+$ git push origin master
