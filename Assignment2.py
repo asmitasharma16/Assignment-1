@@ -21,9 +21,10 @@ print('s= %s'%(s))
 print('course= %s'%(course))
 print('fees= %d'%(fees))
 #6
-name="Tony Stark"
-salary=1000000
-print('%s' ' %d'%(name,salary))
+r = int(input("enter radius of circle = "))
+pi=3.14
+a =pi*r*r
+print("area of circle is = ",a)
 
 
 
